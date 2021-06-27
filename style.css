@@ -319,7 +319,7 @@ nav.show div.icon-close {
   width: 100%;
   background: var(--base-color);
   position: absolute;
-  top: -8.3%;
+  top: -20.3%;
   left: -33%;
   z-index: 0;
 }
