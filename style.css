@@ -199,8 +199,10 @@ nav .menu {
   visibility: hidden;
   top: -20rem;
   transition: 0.2s;
-  top: -20rem;
-  transition: 0.2s;
+}
+
+nav .menu ul {
+  display: none;
 }
 
 /*MOSTRAR MENU*/
@@ -647,17 +649,33 @@ footer .social a:hover {
   }
 }
 /*medium devices 767 + */
-@media (min-width: 767) {
+@media (min-width: 767px) {
   #home .image img {
     position: relative;
     right: 2.5rem;
     width: 200px;
   }
 }
-@media (max-width: 370) {
+
+@media (max-width: 460px) {
+  .toggle {
+    color: var(--text-color-light);
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .icon-menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 370px) {
   #home .image img {
     position: relative;
     right: 2.5rem;
-    width: 200px;
+    width: 400px;
   }
 }
